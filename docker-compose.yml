@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  rajeebapp:
+    image: rajeeb3610/may5:v1
+    container_name: okc1
+    ports:
+      - "8877:80"
